@@ -1,0 +1,18 @@
+.user-cell {
+    display: flex;
+    align-items: center;
+}
+
+.user-cell > img {
+    border-radius: 100%;
+    margin-right: 12px;
+}
+
+.user-cell-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-cell-name > div:nth-child(2) {
+    color: gray;
+}
